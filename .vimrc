@@ -42,6 +42,9 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-h> <C-w>h
 nnoremap <C-l> <C-w>l
+autocmd FileType c nnoremap <buffer> K :!cppman <C-R><C-W> <CR>
+autocmd FileType cpp nnoremap <buffer> K :!cppman <C-R><C-W> <CR>
+
 
 " Map Ctrl+Z to undo in insert mode
 inoremap <C-z> <C-o>u
